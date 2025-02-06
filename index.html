@@ -9,132 +9,243 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Encabezado / Presentación -->
-  <header>
-    <h1>Alexandro Castillo Villada</h1>
-    <p>Data Scientist</p>
-    <p>Ciudad de México, 04100</p>
-    <p>
-      <a href="https://www.linkedin.com/in/alexcastilloat1/" target="_blank" rel="noopener">
-        LinkedIn
-      </a> 
-      | 
-      <a href="mailto:alexcastillo.at1@gmail.com">alexcastillo.at1@gmail.com</a>
-      | 
-      (777) 491-3306
-    </p>
-  </header>
 
-  <hr />
+  <!-- Botón para cambiar idioma -->
+  <button id="toggle-lang">Ver CV en Inglés</button>
 
-  <!-- Botón para mostrar/ocultar resumen (Ejemplo de interactividad con JS) -->
-  <button id="toggle-resumen">Mostrar/Ocultar Resumen</button>
-
-  <!-- Resumen -->
-  <section id="resumen">
-    <h2>Resumen</h2>
-    <p>
-      Científico de Datos con experiencia en el manejo de datos masivos para la 
-      optimización de la gestión de plantas eléctricas en México. Especializado en extracción, 
-      manipulación y visualización de datos para el sector energético.
-    </p>
-  </section>
-
-  <hr />
-
-  <!-- Habilidades Principales -->
-  <section id="habilidades">
-    <h2>Habilidades en Data Science</h2>
-    <ul>
-      <li><strong>Análisis de Datos:</strong> Python (Pandas, NumPy)</li>
-      <li><strong>Bases de Datos:</strong> MySQL, Microsoft SQL Server</li>
-      <li><strong>Visualización de Datos:</strong> Matplotlib, Seaborn</li>
-      <li><strong>Estadística:</strong> Estadística Descriptiva e Inferencia (Pruebas de Hipótesis)</li>
-      <li><strong>Otros:</strong> Excel, Git, PowerBI (opcional si lo usas)</li>
-    </ul>
-  </section>
-
-  <hr />
-
-  <!-- Experiencia -->
-  <section id="experiencia">
-    <h2>Experiencia</h2>
-
-    <article>
-      <h3>Minsait México (Analista de Datos)</h3>
-      <p><em>(05/2023 - Actual)</em></p>
-      <ul>
-        <li>Extracción, limpieza y análisis de grandes volúmenes de datos (CENACE).</li>
-        <li>Configuración y análisis de contratos PPA (Power Purchase Agreement) & Bilaterales.</li>
-        <li>Creación de proyectos de visualización y mejora de dashboards para plantas de ciclo combinado.</li>
-      </ul>
-    </article>
-
-    <article>
-      <h3>CONACYT (Investigación)</h3>
-      <p><em>(02/2022 - Actual)</em></p>
-      <ul>
-        <li>Predicción de variables climáticas (PRECIP, EVAP, TMAX, TMIN) con modelos predictivos.</li>
-        <li>Análisis estadísticos avanzados para identificar tendencias y patrones en datos meteorológicos.</li>
-        <li>Relación de variables climáticas con la demanda energética en Morelos.</li>
-      </ul>
-    </article>
-
-    <article>
-      <h3>Guión Verde (Consultor Auxiliar Medioambiental)</h3>
-      <p><em>(02/2021 - 01/2022)</em></p>
-      <ul>
-        <li>Creación de indicadores clave para supervisión de residuos y emisiones urbanas.</li>
-        <li>Optimización de bases de datos para proyectos de gestión ambiental.</li>
-      </ul>
-    </article>
-  </section>
-
-  <hr />
-
-  <!-- Educación -->
-  <section id="educacion">
-    <h2>Formación Académica</h2>
-
-    <article>
-      <h3>Maestría en Ingeniería Ambiental y Tecnologías Sustentables</h3>
-      <p>Universidad Autónoma del Estado de Morelos (En curso)</p>
+  <!-- CV en Español -->
+  <div id="cv-es">
+    <!-- Encabezado / Presentación -->
+    <header>
+      <h1>Alexandro Castillo Villada</h1>
+      <p>Científico de Datos</p>
+      <p>Ciudad de México, 04100</p>
       <p>
-        Investigación de patrones de variables climáticas y su relevancia en el sector energético
-        mediante estadística y visualización de datos.
+        <a href="https://www.linkedin.com/in/alexcastilloat1/" target="_blank" rel="noopener">LinkedIn</a> |
+        <a href="mailto:alexcastillo.at1@gmail.com">alexcastillo.at1@gmail.com</a> |
+        (777) 491-3306
       </p>
-    </article>
+    </header>
 
-    <article>
-      <h3>Ingeniería Ambiental y Sustentabilidad</h3>
-      <p>Universidad Tecnológica de México</p>
+    <hr />
+
+    <section id="resumen">
+      <h2>Resumen</h2>
       <p>
-        Implementación y gestión de proyectos sustentables, promoviendo prácticas sostenibles
-        y contribuyendo al modelo de economía circular.
+        Científico de Datos con experiencia en el manejo de datos masivos para la 
+        optimización de la gestión de plantas eléctricas en México. Especializado en extracción, 
+        manipulación y visualización de datos para el sector energético.
       </p>
-    </article>
-  </section>
+    </section>
 
-  <hr />
+    <hr />
 
-  <!-- Certificaciones / Cursos Adicionales -->
-  <section id="adicional">
-    <h2>Certificaciones / Cursos</h2>
-    <ul>
-      <li>Microsoft SQL Server (05/2023)</li>
-      <li>Excel Avanzado - A2Capacitacion (12/2023)</li>
-      <li>Oracle Next Education (06/2023)</li>
-      <li>Data Analytics - Google (12/2022)</li>
-      <li>Inglés Avanzado</li>
-    </ul>
-  </section>
+    <section id="habilidades">
+      <h2>Habilidades en Data Science</h2>
+      <ul>
+        <li><strong>Análisis de Datos:</strong> Python (Pandas, NumPy)</li>
+        <li><strong>Bases de Datos:</strong> MySQL, Microsoft SQL Server</li>
+        <li><strong>Visualización de Datos:</strong> Matplotlib, Seaborn</li>
+        <li><strong>Estadística:</strong> Estadística Descriptiva e Inferencia (Pruebas de Hipótesis)</li>
+        <li><strong>Otros:</strong> Excel, Git, Power BI (opcional)</li>
+      </ul>
+    </section>
 
-  <hr />
+    <hr />
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2023 Alexandro Castillo. Todos los derechos reservados.</p>
-  </footer>
+    <section id="experiencia">
+      <h2>Experiencia</h2>
+
+      <article>
+        <h3>Minsait México (Analista de Datos)</h3>
+        <p><em>(05/2023 - Actual)</em></p>
+        <ul>
+          <li>Extracción, limpieza y análisis de grandes volúmenes de datos (CENACE).</li>
+          <li>Configuración y análisis de contratos PPA y Bilaterales.</li>
+          <li>Creación de proyectos de visualización y mejora de dashboards para plantas de ciclo combinado.</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>CONACYT (Investigación)</h3>
+        <p><em>(02/2022 - Actual)</em></p>
+        <ul>
+          <li>Predicción de variables climáticas (PRECIP, EVAP, TMAX, TMIN) con modelos predictivos.</li>
+          <li>Análisis estadísticos avanzados para identificar tendencias y patrones en datos meteorológicos.</li>
+          <li>Relación de variables climáticas con la demanda energética en Morelos.</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Guión Verde (Consultor Auxiliar Medioambiental)</h3>
+        <p><em>(02/2021 - 01/2022)</em></p>
+        <ul>
+          <li>Creación de indicadores clave para supervisión de residuos y emisiones urbanas.</li>
+          <li>Optimización de bases de datos para proyectos de gestión ambiental.</li>
+        </ul>
+      </article>
+    </section>
+
+    <hr />
+
+    <section id="educacion">
+      <h2>Formación Académica</h2>
+
+      <article>
+        <h3>Maestría en Ingeniería Ambiental y Tecnologías Sustentables</h3>
+        <p>Universidad Autónoma del Estado de Morelos (En curso)</p>
+        <p>
+          Investigación de patrones de variables climáticas y su relevancia en el sector energético
+          mediante estadística y visualización de datos.
+        </p>
+      </article>
+
+      <article>
+        <h3>Ingeniería Ambiental y Sustentabilidad</h3>
+        <p>Universidad Tecnológica de México</p>
+        <p>
+          Implementación y gestión de proyectos sustentables, promoviendo prácticas sostenibles
+          y contribuyendo al modelo de economía circular.
+        </p>
+      </article>
+    </section>
+
+    <hr />
+
+    <section id="adicional">
+      <h2>Certificaciones / Cursos</h2>
+      <ul>
+        <li>Microsoft SQL Server (05/2023)</li>
+        <li>Excel Avanzado - A2Capacitacion (12/2023)</li>
+        <li>Oracle Next Education (06/2023)</li>
+        <li>Data Analytics - Google (12/2022)</li>
+        <li>Inglés Avanzado</li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <footer>
+      <p>© 2023 Alexandro Castillo. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+
+  <!-- CV en Inglés (oculto por defecto, se mostrará al hacer clic) -->
+  <div id="cv-en" style="display: none;">
+    <!-- Header / Presentation -->
+    <header>
+      <h1>Alexandro Castillo Villada</h1>
+      <p>Data Scientist</p>
+      <p>Mexico City, 04100</p>
+      <p>
+        <a href="https://www.linkedin.com/in/alexcastilloat1/" target="_blank" rel="noopener">LinkedIn</a> |
+        <a href="mailto:alexcastillo.at1@gmail.com">alexcastillo.at1@gmail.com</a> |
+        +52 (777) 491-3306
+      </p>
+    </header>
+
+    <hr />
+
+    <section id="summary">
+      <h2>Summary</h2>
+      <p>
+        Data Scientist with experience in handling large-scale data to optimize the 
+        management of power plants in Mexico. Specialized in data extraction, manipulation, 
+        and visualization for the energy sector.
+      </p>
+    </section>
+
+    <hr />
+
+    <section id="skills">
+      <h2>Data Science Skills</h2>
+      <ul>
+        <li><strong>Data Analysis:</strong> Python (Pandas, NumPy)</li>
+        <li><strong>Databases:</strong> MySQL, Microsoft SQL Server</li>
+        <li><strong>Data Visualization:</strong> Matplotlib, Seaborn</li>
+        <li><strong>Statistics:</strong> Descriptive and Inferential Statistics (Hypothesis Testing)</li>
+        <li><strong>Others:</strong> Excel, Git, Power BI (optional)</li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <section id="experience">
+      <h2>Experience</h2>
+
+      <article>
+        <h3>Minsait México (Data Analyst)</h3>
+        <p><em>(05/2023 - Present)</em></p>
+        <ul>
+          <li>Extraction, cleaning, and analysis of large data volumes (CENACE).</li>
+          <li>Configuration and analysis of PPA (Power Purchase Agreements) & bilateral contracts.</li>
+          <li>Development of data visualization projects and dashboard improvements for combined cycle power plants.</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>CONACYT (Research)</h3>
+        <p><em>(02/2022 - Present)</em></p>
+        <ul>
+          <li>Forecasting climatic variables (PRECIP, EVAP, TMAX, TMIN) using predictive models.</li>
+          <li>Advanced statistical analyses to identify trends and patterns in meteorological data.</li>
+          <li>Correlation of climatic variables with energy demand in Morelos.</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Guión Verde (Environmental Consultant Assistant)</h3>
+        <p><em>(02/2021 - 01/2022)</em></p>
+        <ul>
+          <li>Development of key performance indicators to monitor urban waste and emissions.</li>
+          <li>Database optimization for environmental management projects.</li>
+        </ul>
+      </article>
+    </section>
+
+    <hr />
+
+    <section id="education">
+      <h2>Education</h2>
+
+      <article>
+        <h3>M.Sc. in Environmental Engineering & Sustainable Technologies</h3>
+        <p>Universidad Autónoma del Estado de Morelos (In progress)</p>
+        <p>
+          Research on climatic variables and their relevance in the energy sector
+          using statistical methods and data visualization tools.
+        </p>
+      </article>
+
+      <article>
+        <h3>B.Sc. in Environmental and Sustainability Engineering</h3>
+        <p>Universidad Tecnológica de México</p>
+        <p>
+          Implementation and management of sustainable projects, promoting best practices 
+          for an efficient use of organic waste and contributing to a circular economy model.
+        </p>
+      </article>
+    </section>
+
+    <hr />
+
+    <section id="additional">
+      <h2>Certifications / Courses</h2>
+      <ul>
+        <li>Microsoft SQL Server (05/2023)</li>
+        <li>Advanced Excel - A2Capacitacion (12/2023)</li>
+        <li>Oracle Next Education (06/2023)</li>
+        <li>Data Analytics - Google (12/2022)</li>
+        <li>Advanced English</li>
+      </ul>
+    </section>
+
+    <hr />
+
+    <footer>
+      <p>© 2023 Alexandro Castillo. All rights reserved.</p>
+    </footer>
+  </div>
 
   <!-- Enlaza tu script.js al final del body -->
   <script src="script.js"></script>
