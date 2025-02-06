@@ -1,14 +1,22 @@
 // script.js
 
 document.addEventListener('DOMContentLoaded', () => {
-  const toggleBtn = document.getElementById('toggle-resumen');
-  const resumenSection = document.getElementById('resumen');
+  const toggleLangBtn = document.getElementById('toggle-lang');
+  const cvEs = document.getElementById('cv-es');
+  const cvEn = document.getElementById('cv-en');
 
-  toggleBtn.addEventListener('click', () => {
-    if (resumenSection.style.display === 'none') {
-      resumenSection.style.display = 'block';
+  toggleLangBtn.addEventListener('click', () => {
+    // Si CV en Español está visible, lo ocultamos y mostramos el Inglés
+    if (cvEs.style.display !== 'none') {
+      cvEs.style.display = 'none';
+      cvEn.style.display = 'block';
+      toggleLangBtn.textContent = 'Ver CV en Español';
     } else {
-      resumenSection.style.display = 'none';
+      // Caso contrario
+      cvEs.style.display = 'block';
+      cvEn.style.display = 'none';
+      toggleLangBtn.textContent = 'Ver CV en Inglés';
     }
   });
 });
+
