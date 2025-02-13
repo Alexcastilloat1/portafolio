@@ -2,23 +2,22 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="description" content="CV Data Science - Alexandro Castillo" />
+  <meta name="description" content="Portafolio Data Science - Alexandro Castillo" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CV Data Science - Alexandro Castillo</title>
-  <!-- Enlaza tu hoja de estilos -->
+  <title>Portafolio Data Science - Alexandro Castillo</title>
+  <!-- Enlaza la hoja de estilos -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <!-- Botón para cambiar idioma -->
-  <button id="toggle-lang">Ver CV en Inglés</button>
+  <button id="toggle-lang">Ver Portafolio en Inglés</button>
 
-  <!-- CV en Español -->
-  <div id="cv-es">
-    <!-- Encabezado / Presentación -->
+  <!-- Sección Portafolio en Español -->
+  <div id="portfolio-es">
     <header>
-      <h1>Alexandro Castillo Villada</h1>
-      <p>Científico de Datos</p>
+      <h1>Portafolio de Data Science</h1>
+      <p>Alexandro Castillo Villada</p>
       <p>Ciudad de México, 04100</p>
       <p>
         <a href="https://www.linkedin.com/in/alexcastilloat1/" target="_blank" rel="noopener">LinkedIn</a> |
@@ -29,98 +28,14 @@
 
     <hr />
 
-    <section id="resumen">
-      <h2>Resumen</h2>
-      <p>
-        Científico de Datos con experiencia en el manejo de datos masivos para la 
-        optimización de la gestión de plantas eléctricas en México. Especializado en extracción, 
-        manipulación y visualización de datos para el sector energético.
-      </p>
-    </section>
-
-    <hr />
-
-    <section id="habilidades">
-      <h2>Habilidades en Data Science</h2>
-      <ul>
-        <li><strong>Análisis de Datos:</strong> Python (Pandas, NumPy)</li>
-        <li><strong>Bases de Datos:</strong> MySQL, Microsoft SQL Server</li>
-        <li><strong>Visualización de Datos:</strong> Matplotlib, Seaborn</li>
-        <li><strong>Estadística:</strong> Estadística Descriptiva e Inferencia (Pruebas de Hipótesis)</li>
-        <li><strong>Otros:</strong> Excel, Git, Power BI (opcional)</li>
-      </ul>
-    </section>
-
-    <hr />
-
-    <section id="experiencia">
-      <h2>Experiencia</h2>
-
-      <article>
-        <h3>Minsait México (Analista de Datos)</h3>
-        <p><em>(05/2023 - Actual)</em></p>
-        <ul>
-          <li>Extracción, limpieza y análisis de grandes volúmenes de datos (CENACE).</li>
-          <li>Configuración y análisis de contratos PPA y Bilaterales.</li>
-          <li>Creación de proyectos de visualización y mejora de dashboards para plantas de ciclo combinado.</li>
-        </ul>
-      </article>
-
-      <article>
-        <h3>CONACYT (Investigación)</h3>
-        <p><em>(02/2022 - Actual)</em></p>
-        <ul>
-          <li>Predicción de variables climáticas (PRECIP, EVAP, TMAX, TMIN) con modelos predictivos.</li>
-          <li>Análisis estadísticos avanzados para identificar tendencias y patrones en datos meteorológicos.</li>
-          <li>Relación de variables climáticas con la demanda energética en Morelos.</li>
-        </ul>
-      </article>
-
-      <article>
-        <h3>Guión Verde (Consultor Auxiliar Medioambiental)</h3>
-        <p><em>(02/2021 - 01/2022)</em></p>
-        <ul>
-          <li>Creación de indicadores clave para supervisión de residuos y emisiones urbanas.</li>
-          <li>Optimización de bases de datos para proyectos de gestión ambiental.</li>
-        </ul>
-      </article>
-    </section>
-
-    <hr />
-
-    <section id="educacion">
-      <h2>Formación Académica</h2>
-
-      <article>
-        <h3>Maestría en Ingeniería Ambiental y Tecnologías Sustentables</h3>
-        <p>Universidad Autónoma del Estado de Morelos (En curso)</p>
-        <p>
-          Investigación de patrones de variables climáticas y su relevancia en el sector energético
-          mediante estadística y visualización de datos.
-        </p>
-      </article>
-
-      <article>
-        <h3>Ingeniería Ambiental y Sustentabilidad</h3>
-        <p>Universidad Tecnológica de México</p>
-        <p>
-          Implementación y gestión de proyectos sustentables, promoviendo prácticas sostenibles
-          y contribuyendo al modelo de economía circular.
-        </p>
-      </article>
-    </section>
-
-    <hr />
-
-    <section id="adicional">
-      <h2>Certificaciones / Cursos</h2>
-      <ul>
-        <li>Microsoft SQL Server (05/2023)</li>
-        <li>Excel Avanzado - A2Capacitacion (12/2023)</li>
-        <li>Oracle Next Education (06/2023)</li>
-        <li>Data Analytics - Google (12/2022)</li>
-        <li>Inglés Avanzado</li>
-      </ul>
+    <section>
+      <h2>Proyectos</h2>
+      <p>A continuación, algunos proyectos destacados como Científico de Datos.</p>
+      <div class="project-buttons">
+        <button onclick="location.href='variables_climaticas.html'">Variables Climáticas</button>
+        <button onclick="location.href='energia.html'">Energía</button>
+        <button onclick="location.href='ecommerce.html'">E-commerce</button>
+      </div>
     </section>
 
     <hr />
@@ -130,12 +45,11 @@
     </footer>
   </div>
 
-  <!-- CV en Inglés (oculto por defecto, se mostrará al hacer clic) -->
-  <div id="cv-en" style="display: none;">
-    <!-- Header / Presentation -->
+  <!-- Sección Portafolio en Inglés (oculta por defecto) -->
+  <div id="portfolio-en" style="display: none;">
     <header>
-      <h1>Alexandro Castillo Villada</h1>
-      <p>Data Scientist</p>
+      <h1>Data Science Portfolio</h1>
+      <p>Alexandro Castillo Villada</p>
       <p>Mexico City, 04100</p>
       <p>
         <a href="https://www.linkedin.com/in/alexcastilloat1/" target="_blank" rel="noopener">LinkedIn</a> |
@@ -146,98 +60,14 @@
 
     <hr />
 
-    <section id="summary">
-      <h2>Summary</h2>
-      <p>
-        Data Scientist with experience in handling large-scale data to optimize the 
-        management of power plants in Mexico. Specialized in data extraction, manipulation, 
-        and visualization for the energy sector.
-      </p>
-    </section>
-
-    <hr />
-
-    <section id="skills">
-      <h2>Data Science Skills</h2>
-      <ul>
-        <li><strong>Data Analysis:</strong> Python (Pandas, NumPy)</li>
-        <li><strong>Databases:</strong> MySQL, Microsoft SQL Server</li>
-        <li><strong>Data Visualization:</strong> Matplotlib, Seaborn</li>
-        <li><strong>Statistics:</strong> Descriptive and Inferential Statistics (Hypothesis Testing)</li>
-        <li><strong>Others:</strong> Excel, Git, Power BI (optional)</li>
-      </ul>
-    </section>
-
-    <hr />
-
-    <section id="experience">
-      <h2>Experience</h2>
-
-      <article>
-        <h3>Minsait México (Data Analyst)</h3>
-        <p><em>(05/2023 - Present)</em></p>
-        <ul>
-          <li>Extraction, cleaning, and analysis of large data volumes (CENACE).</li>
-          <li>Configuration and analysis of PPA (Power Purchase Agreements) & bilateral contracts.</li>
-          <li>Development of data visualization projects and dashboard improvements for combined cycle power plants.</li>
-        </ul>
-      </article>
-
-      <article>
-        <h3>CONACYT (Research)</h3>
-        <p><em>(02/2022 - Present)</em></p>
-        <ul>
-          <li>Forecasting climatic variables (PRECIP, EVAP, TMAX, TMIN) using predictive models.</li>
-          <li>Advanced statistical analyses to identify trends and patterns in meteorological data.</li>
-          <li>Correlation of climatic variables with energy demand in Morelos.</li>
-        </ul>
-      </article>
-
-      <article>
-        <h3>Guión Verde (Environmental Consultant Assistant)</h3>
-        <p><em>(02/2021 - 01/2022)</em></p>
-        <ul>
-          <li>Development of key performance indicators to monitor urban waste and emissions.</li>
-          <li>Database optimization for environmental management projects.</li>
-        </ul>
-      </article>
-    </section>
-
-    <hr />
-
-    <section id="education">
-      <h2>Education</h2>
-
-      <article>
-        <h3>M.Sc. in Environmental Engineering & Sustainable Technologies</h3>
-        <p>Universidad Autónoma del Estado de Morelos (In progress)</p>
-        <p>
-          Research on climatic variables and their relevance in the energy sector
-          using statistical methods and data visualization tools.
-        </p>
-      </article>
-
-      <article>
-        <h3>B.Sc. in Environmental and Sustainability Engineering</h3>
-        <p>Universidad Tecnológica de México</p>
-        <p>
-          Implementation and management of sustainable projects, promoting best practices 
-          for an efficient use of organic waste and contributing to a circular economy model.
-        </p>
-      </article>
-    </section>
-
-    <hr />
-
-    <section id="additional">
-      <h2>Certifications / Courses</h2>
-      <ul>
-        <li>Microsoft SQL Server (05/2023)</li>
-        <li>Advanced Excel - A2Capacitacion (12/2023)</li>
-        <li>Oracle Next Education (06/2023)</li>
-        <li>Data Analytics - Google (12/2022)</li>
-        <li>Advanced English</li>
-      </ul>
+    <section>
+      <h2>Projects</h2>
+      <p>Below are some highlighted projects as a Data Scientist.</p>
+      <div class="project-buttons">
+        <button onclick="location.href='variables_climaticas.html'">Climate Variables</button>
+        <button onclick="location.href='energia.html'">Energy</button>
+        <button onclick="location.href='ecommerce.html'">E-commerce</button>
+      </div>
     </section>
 
     <hr />

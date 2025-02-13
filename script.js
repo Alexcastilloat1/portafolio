@@ -2,21 +2,20 @@
 
 document.addEventListener('DOMContentLoaded', () => {
   const toggleLangBtn = document.getElementById('toggle-lang');
-  const cvEs = document.getElementById('cv-es');
-  const cvEn = document.getElementById('cv-en');
+  const portfolioEs = document.getElementById('portfolio-es');
+  const portfolioEn = document.getElementById('portfolio-en');
 
   toggleLangBtn.addEventListener('click', () => {
-    // Si CV en Español está visible, lo ocultamos y mostramos el Inglés
-    if (cvEs.style.display !== 'none') {
-      cvEs.style.display = 'none';
-      cvEn.style.display = 'block';
-      toggleLangBtn.textContent = 'Ver CV en Español';
+    // Si la sección en Español está visible, la ocultamos y mostramos la de Inglés
+    if (portfolioEs.style.display !== 'none') {
+      portfolioEs.style.display = 'none';
+      portfolioEn.style.display = 'block';
+      toggleLangBtn.textContent = 'Ver Portafolio en Español';
     } else {
       // Caso contrario
-      cvEs.style.display = 'block';
-      cvEn.style.display = 'none';
-      toggleLangBtn.textContent = 'Ver CV en Inglés';
+      portfolioEs.style.display = 'block';
+      portfolioEn.style.display = 'none';
+      toggleLangBtn.textContent = 'Ver Portafolio en Inglés';
     }
   });
 });
-

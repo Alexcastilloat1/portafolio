@@ -31,8 +31,9 @@ body {
   background-color: #0055aa;
 }
 
-/* Secciones de CV */
-#cv-es, #cv-en {
+/* Secciones de portafolio */
+#portfolio-es,
+#portfolio-en {
   background-color: #fff;
   padding: 15px;
   border-radius: 5px;
@@ -50,16 +51,6 @@ h2 {
   margin-bottom: 10px;
 }
 
-/* Artículos dentro de cada sección */
-article {
-  margin-bottom: 15px;
-}
-
-article h3 {
-  font-size: 1.2rem;
-  color: #666;
-}
-
 hr {
   margin: 20px 0;
   border: 0;
@@ -70,4 +61,23 @@ footer {
   text-align: center;
   margin-top: 20px;
   color: #666;
+}
+
+/* Botones para los proyectos */
+.project-buttons {
+  margin-top: 15px;
+}
+
+.project-buttons button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.project-buttons button:hover {
+  background-color: #0056b3;
 }
